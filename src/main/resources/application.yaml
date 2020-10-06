@@ -1,0 +1,44 @@
+#Spring 配置文档
+spring:
+  profiles:
+    active: prod #切换到生产
+    #active: dev #切换到开发
+#配置mysql数据库连接参数
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbgirl
+    useSSL: false
+    characterEncoding: utf-8
+    useUnicode: true
+    username: root
+    password: 123456
+    verifyServerCertificate: false
+#配置JPA连接数据库设置
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    format_sql: true
+    properties:
+      hibernate:
+        globally_quoted_identifiers:  true
+
+#使用thymeleaf配置模板
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: text/html
+    mode: HTML5
+#配置redis连接池
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: root
+    timeout: 5000
+    pool:
+      max-active: 1000
+      max-idle: 100
+      max-wait: -1
+      min-idle: 0

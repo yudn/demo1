@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "spirng.profile.active",
+      "type": "java.lang.String",
+      "description": "Description for spirng.profile.active."
+    },
+    {
+      "name": "spring.datasource.useSSL",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.useSSL."
+    }
+  ] }

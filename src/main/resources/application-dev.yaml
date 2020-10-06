@@ -1,0 +1,7 @@
+#开发应用配置文件
+server:
+  port: 8080
+  #contextPath: /demo
+girl:
+  cpuSize: C
+  age: 17

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example1.yudn.GirlServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.547 sec <<< FAILURE! - in com.example1.yudn.GirlServiceTest
+findOneTest(com.example1.yudn.GirlServiceTest)  Time elapsed: 0.453 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.example1.yudn.GirlServiceTest.findOneTest(GirlServiceTest.java:24)
+

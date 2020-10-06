@@ -1,0 +1,6 @@
+#生产应用配置文件
+server:
+  port: 8081
+girl:
+  cpuSize: F
+  age: 20
